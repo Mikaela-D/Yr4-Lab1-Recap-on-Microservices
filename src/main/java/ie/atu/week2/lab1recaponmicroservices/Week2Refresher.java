@@ -8,7 +8,7 @@ import java.util.List;
 @RestController
 public class Week2Refresher {
 
-    private List<Product> productlist = new ArrayList<Product>();
+    /*private List<Product> productlist = new ArrayList<Product>();
 
     @GetMapping("/hello")
     public String message() {
@@ -30,5 +30,5 @@ public class Week2Refresher {
     public Product addProduct(@RequestBody Product product) {
         productlist.add(product);
         return product;
-    }
+    }*/
 }
